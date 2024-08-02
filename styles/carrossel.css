@@ -1,0 +1,146 @@
+.carrossel__titulo {
+    color: var(--laranja);
+    font-family: var(--fonte);
+    font-size: 1.12rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: var(--branco);
+    text-transform: uppercase;
+    padding: 1em 0 0.5em 0;
+
+}
+
+.swiper-slide img {
+    margin-top: 1em;
+    width: 100%;
+
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    display: none;
+}
+
+.swiper-pagination {
+    position: absolute;
+  bottom: 100%;
+}
+
+.card-descricao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-botoes {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.botoes{
+    display: flex;
+   margin: 0.5em;
+}
+
+.card{
+    background-color: var(--branco);
+    margin: 1em;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0 4px 4px rgb(0, 0, 0, 0.25);
+}
+
+.card__titulo-um{
+    color: var(--laranja);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.card__titulo-dois{
+    color: var(--azul-escuro);
+    font-size: 18px;
+    margin: 0.5em 0;
+}
+
+.card__parag{
+    font-size: 14px;
+margin-bottom: 0.5em;
+    
+}
+
+.descricao__imagem{
+    width: 100%;
+    height: 50%%;
+    margin-bottom: 1em;
+
+}
+
+.botoes__ancora{
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-weight: 700;
+    padding: 1em 2.2em;
+    margin-bottom: 1em;
+}
+
+@media screen and (min-width: 1024px){
+    .carrossel__titulo{
+        font-size: 1.6rem;
+    }
+
+    .swiper{
+        width: 60%;
+        margin-top: 6em;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: block;
+      
+
+}
+
+.card{
+    width: 60%;
+    margin: 2em auto;
+}
+
+.descricao__imagem{
+    width: 40%;
+    height: 40%;
+    margin-bottom: 1em;
+}
+
+.botoes__ancora{
+    width: 33%;
+}
+
+
+}
+
+@media screen and (min-width: 1728px){
+    .carrossel__container{
+        display: flex;
+        margin: 0 20vw 2em 20vw;
+        align-items: center;
+        width: 60%;
+       
+    }
+
+    .card__titulo-um {
+        font-size: 2rem;
+    }
+    .card__titulo-dois{
+        font-size: 1.1rem;
+    }
+.card-descricao{
+    font-size: 1rem;
+}
+    
+.card{
+    margin-left: 5em;
+    width: 60%;
+}
+
+}
+   
