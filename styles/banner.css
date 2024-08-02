@@ -126,7 +126,7 @@
         padding: 6em 0;
     }
     .banner__pesquisa::placeholder, .banner__pesquisa-baixo::placeholder{
-        background-position: 14em;
+        background-position: 10em;
     }
 
     .banner-baixo{
